@@ -103,7 +103,7 @@
   "scripts": {
     "webpack": "webpack --watch",
     "build": "webpack",
-    "start:dev": "webpack-dev-server",
+    "start:dev": "webpack server --mode=development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
